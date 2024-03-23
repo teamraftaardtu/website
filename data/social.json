@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Email",
+		"link": "mailto:teamraftaar@dtu.ac.in",
+		"image": "/vectors/social/email.svg"
+	},
+	{
+		"name": "Instagram",
+		"link": "https://www.instagram.com/teamraftaardtu/",
+		"image": "/vectors/social/instagram.svg"
+	},
+	{
+		"name": "LinkedIn",
+		"link": "https://www.linkedin.com/company/teamraftaar/",
+		"image": "/vectors/social/linkedin.svg"
+	},
+	{
+		"name": "Facebook",
+		"link": "https://www.facebook.com/RaftaarDTU/",
+		"image": "/vectors/social/facebook.svg"
+	}
+]
