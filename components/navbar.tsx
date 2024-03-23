@@ -26,7 +26,7 @@ export default function Navbar() {
 					<li key={link}>
 						<a
 							className={clsx(
-								"block px-8 py-4 transition-colors hover:text-orange-800 md:rounded-lg md:px-4 md:py-2",
+								"block px-8 py-4 transition-colors hover:text-black md:rounded-lg md:px-4 md:py-2",
 								pathname === link ? "bg-primary" : "",
 							)}
 							href={link}
@@ -36,8 +36,8 @@ export default function Navbar() {
 					</li>
 				))}
 			</ul>
-			<a href="http://dtu.ac.in/" className="flex items-center gap-4">
-					<Image src={dtu} alt=""className="hidden md:block w-16 h-16"/>
+			<a href="http://dtu.ac.in/" aria-label="DTU website" className="flex items-center gap-4">
+					<Image src={dtu} alt="DTU Logo" className="hidden md:block w-16 h-16"/>
 			</a>
 		</nav>
 	)

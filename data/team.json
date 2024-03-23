@@ -3,9 +3,7 @@
 		"name": "Vaibhav Kumar",
 		"class": "25",
 		"por": "Captain",
-		"linkedin": "https://www.linkedin.com/in/sauhardjain/",
-		"twitter": "https://twitter.com/sauhard_jain",
-		"email": "sauhard@berkeley.edu",
+		"linkedin": "https://www.linkedin.com/in/vaibhav-kumar-3ab66922b/",
 		"image": "vaibhav.jpeg"
 	},
 	{
@@ -14,41 +12,35 @@
 		"por": "Vice-Captain",
 		"linkedin": "https://www.linkedin.com/in/priyanshusinhadtu/",
 		"twitter": "https://twitter.com/idkpriyanshu",
-		"email": "natashaarya@berkeley.edu",
+		"email": "priyanshusinha.dtu@gmail.com",
 		"image": "sinha.jpeg"
 	},
 	{
 		"name": "Aditya Singh",
 		"class": "25",
 		"por": "Vice-Captain",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
+		"linkedin": "https://www.linkedin.com/in/aditya-singh-28a37a146/",
 		"image": "adityasingh.jpg"
 	},
 	{
 		"name": "Aditya Yadav",
 		"class": "25",
 		"por": "Manager",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
+		"linkedin": "https://www.linkedin.com/in/aditya-yadav-3ba9981b9/",
 		"image": "ayadav.jpg"
 	},
 	{
 		"name": "Vishal Yadav",
 		"class": "25",
 		"por": "Corporate Head",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
+		"linkedin": "https://www.linkedin.com/in/vishal-yadav-413a5222a/",
 		"image": "vishal.jpeg"
 	},
 	{
 		"name": "Ayush Kumar",
 		"class": "25",
 		"por": "Mechanical Head",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
+		"linkedin": "https://www.linkedin.com/in/ayush-kumar-17446a201/",
 		"twitter": "https://twitter.com/catherineyzhao",
 		"email": "catherinezhao@berkeley.edu",
 		"image": "ayush.jpeg"
@@ -57,54 +49,28 @@
 		"name": "Teeksha Harish",
 		"class": "25",
 		"por": "Software Head",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
+		"linkedin": "https://www.linkedin.com/in/teeksha-harish-5895a0234/",
 		"image": "teeksha.jpeg"
 	},
 	{
 		"name": "Harsh Kumar Yadav",
 		"class": "25",
 		"por": "Manufacturing Head",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
+		"linkedin": "https://www.linkedin.com/in/harsh-kumar-yadav-45673a266/",
 		"image": "harsh.jpeg"
 	},
 	{
-		"name": "Teeksha Harish",
+		"name": "Yogender",
 		"class": "25",
-		"por": "Software Head",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
-		"image": "teeksha.jpeg"
+		"por": "Analysis Head",
+		"linkedin": "https://www.linkedin.com/in/yogender-a35558256/",
+		"image": "yogender.jpeg"
 	},
 	{
-		"name": "Teeksha Harish",
+		"name": "Prerna Saini",
 		"class": "25",
-		"por": "Software Head",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
-		"image": "teeksha.jpeg"
-	},
-	{
-		"name": "Teeksha Harish",
-		"class": "25",
-		"por": "Software Head",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
-		"image": "teeksha.jpeg"
-	},
-	{
-		"name": "Teeksha Harish",
-		"class": "25",
-		"por": "Software Head",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
-		"image": "teeksha.jpeg"
+		"por": "Software Co-Head",
+		"linkedin": "https://www.linkedin.com/in/prerna-saini-936347242/",
+		"image": "prerna.jpg"
 	}
 ]

@@ -91,8 +91,8 @@ export default function Team() {
 				We’re a small team of facilitators with an ambitious mission.
 			</p>
 			<People people={team} order="asc" />
-			<h2 className="mt-12 text-center font-accent text-primary text-3xl font-bold">Members</h2>
-			{/* <People people={alumni} order="desc" /> */}
+			<h2 className="mt-12 text-center font-accent text-primary text-3xl font-bold">Alumni</h2>
+			<People people={alumni} order="asc" />
 		</Container>
 	)
 }
