@@ -32,9 +32,7 @@ export default function Footer() {
 						</a>
 					))}
 				</div>
-				<p className="max-w-sm text-slate-200">
-					© Team Raftaar • 2024
-				</p>
+				<p className="max-w-sm text-slate-200">© Team Raftaar • 2024</p>
 			</Container>
 		</footer>
 	)

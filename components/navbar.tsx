@@ -21,7 +21,7 @@ export default function Navbar() {
 					<HamburgerMenuIcon className="h-8 w-8 font-extrabold text-white" />
 				</label>
 			</div>
-			<ul className="hidden text-lg text-white font-bold flex-col border-y bg-primary shadow-sm peer-checked:flex md:flex md:flex-row md:gap-2 md:border-none md:bg-transparent md:shadow-none">
+			<ul className="hidden flex-col border-y bg-primary text-lg font-bold text-white shadow-sm peer-checked:flex md:flex md:flex-row md:gap-2 md:border-none md:bg-transparent md:shadow-none">
 				{navLinks.map(({ link, title }) => (
 					<li key={link}>
 						<a
@@ -36,8 +36,12 @@ export default function Navbar() {
 					</li>
 				))}
 			</ul>
-			<a href="http://dtu.ac.in/" aria-label="DTU website" className="flex items-center gap-4">
-					<Image src={dtu} alt="DTU Logo" className="hidden md:block w-16 h-16"/>
+			<a
+				href="http://dtu.ac.in/"
+				aria-label="DTU website"
+				className="flex items-center gap-4"
+			>
+				<Image src={dtu} alt="DTU Logo" className="hidden h-16 w-16 md:block" />
 			</a>
 		</nav>
 	)

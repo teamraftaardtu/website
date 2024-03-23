@@ -171,11 +171,11 @@ export default function Home() {
 			<div className="relative -z-20 border-t border-zinc-600 bg-zinc-900 bg-[url(/images/home/back.avif)] bg-cover px-8 py-12">
 				<div className="absolute inset-0 -z-10 bg-black/40"></div>
 				<section className="mx-auto max-w-3xl">
-					<hr className="w-12 h-1 border-0 bg-primary mx-auto"/>
-					<h2 className="text-center py-2 italic text-3xl font-bold text-slate-200 md:text-4xl">
+					<hr className="mx-auto h-1 w-12 border-0 bg-primary" />
+					<h2 className="py-2 text-center text-3xl font-bold italic text-slate-200 md:text-4xl">
 						SPONSORS
 					</h2>
-					<hr className="w-12 h-1 border-0 bg-primary mx-auto"/>
+					<hr className="mx-auto h-1 w-12 border-0 bg-primary" />
 					<div className="mt-10 flex flex-col items-center justify-center gap-5 md:flex-row md:flex-wrap md:gap-10">
 						<Image src={solidWorks} alt="Solid Works" className="h-8 w-auto" />
 						<Image src={ansys} alt="Ansys" className="h-8 w-auto" />

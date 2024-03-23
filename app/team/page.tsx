@@ -69,7 +69,7 @@ function People({
 				<p className="text-lg font-medium text-white">
 					{person.name} ‘{person.class}
 				</p>
-				<p className="text-base text-orange-300 font-bold">{person.por}</p>
+				<p className="text-base font-bold text-orange-300">{person.por}</p>
 				<Socials person={person} />
 			</div>
 		</div>
@@ -86,12 +86,16 @@ function People({
 export default function Team() {
 	return (
 		<Container>
-			<h1 className="text-4xl font-bold font-accent mb-4 text-primary text-center">CORE Panel</h1>
+			<h1 className="mb-4 text-center font-accent text-4xl font-bold text-primary">
+				CORE Panel
+			</h1>
 			<p className="text-center text-lg text-slate-200 sm:text-xl">
 				We’re a small team of facilitators with an ambitious mission.
 			</p>
 			<People people={team} order="asc" />
-			<h2 className="mt-12 text-center font-accent text-primary text-3xl font-bold">Alumni</h2>
+			<h2 className="mt-12 text-center font-accent text-3xl font-bold text-primary">
+				Alumni
+			</h2>
 			<People people={alumni} order="asc" />
 		</Container>
 	)
