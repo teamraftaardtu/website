@@ -2,6 +2,7 @@ import Footer from "@/components/footer"
 import "./globals.css"
 import Navbar from "@/components/navbar"
 import { Metadata } from "next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
 	title: "Team Raftaar",
@@ -22,6 +23,7 @@ export default function RootLayout({
 			<body className="font-primary antialiased bg-zinc-900">
 				<Navbar />
 				{children}
+				<SpeedInsights />
 				<Footer />
 			</body>
 		</html>
