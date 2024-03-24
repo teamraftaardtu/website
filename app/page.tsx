@@ -15,12 +15,12 @@ import Link from "next/link"
 
 function Photos() {
 	return (
-		<div className="-z-10 mt-8 flex max-w-full items-start gap-12">
+		<div className="-z-10 mt-8 flex max-w-6xl items-start gap-12">
 			<Image
 				src={kaze}
 				alt="Picture of the class with Delian Asparouhov"
 				placeholder="blur"
-				className="hidden h-48 w-96 translate-y-8 -rotate-6 transform rounded-lg object-cover shadow-xl lg:block hover:translate-y-0 hover:-rotate-0"
+				className="hidden h-48 w-80 translate-y-12 -rotate-6 transform rounded-lg object-cover shadow-xl lg:block hover:translate-y-0 hover:-rotate-0"
 			/>
 			<Image
 				src={team}
@@ -32,7 +32,7 @@ function Photos() {
 				src={winner}
 				alt="Picture of a group of students working together in a coworking space"
 				placeholder="blur"
-				className="h-48 w-96 translate-y-8 rotate-2 transform rounded-lg object-cover shadow-xl"
+				className="h-48 w-80 translate-y-8 rotate-2 transform rounded-lg object-cover shadow-xl"
 			/>
 		</div>
 	)
@@ -50,7 +50,7 @@ function Background() {
 				}}
 				className="absolute inset-0 -z-10"
 			/>
-			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-zinc-950 to-60%" />
+			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-zinc-950 to-50%" />
 		</>
 	)
 }
@@ -69,19 +69,19 @@ export default function Home() {
 				>
 					Apply to Team Raftaar »
 				</Link>
-				<div className="flex flex-col md:gap-20 md:justify-between items-center md:flex-row">
+				<div className="flex flex-col md:gap-20 md:justify-between items-center lg:flex-row">
 					<Image
 						priority
 						src={vehicle}
 						alt=""
-						className="-z-10 mt-16 h-auto w-5/6 rotate-6 md:hidden hover:rotate-0 transition ease-in-out duration-300"
+						className="-z-10 mt-16 h-auto w-5/6 rotate-6 lg:hidden hover:rotate-0 transition ease-in-out duration-300"
 					/>
 					<div>
-						<h1 className="mt-8 max-w-xl text-center font-accent text-5xl [word-spacing:-10px] md:[word-spacing:-20px] font-bold uppercase italic !leading-[1.15] text-slate-200 drop-shadow-lg md:text-left md:text-8xl">
+						<h1 className="mt-8 max-w-xl text-center font-accent text-5xl [word-spacing:-10px] md:[word-spacing:-20px] font-bold uppercase italic !leading-[1.15] text-slate-200 drop-shadow-lg lg:text-left md:text-8xl">
 							We are{" "}
-							<span className="shiny text-orange-300 drop-shadow-lg">
-								speed{" "}
-							</span>⚡️
+							<span className="shiny text-orange-300 drop-shadow-lg md:[word-spacing:-50px]">
+								speed ⚡️
+							</span>
 						</h1>
 						<p className="mx-auto mb-6 mt-8 max-w-[45ch] text-center text-lg text-slate-100 sm:text-xl md:text-left md:ml-3">
 							Team Raftaar is the Hybrid Human Powered Vehicle developing team
@@ -92,13 +92,13 @@ export default function Home() {
 						priority
 						src={vehicle}
 						alt=""
-						className="my-16 hidden h-auto w-[600px] rotate-6 md:block hover:rotate-0 transition ease-in-out duration-300"
+						className="my-16 hidden h-auto w-[50%] rotate-6 lg:block hover:rotate-0 transition ease-in-out duration-300"
 					/>
 				</div>
 				<Photos />
 			</Container>
 
-			<div className="mx-auto flex flex-col items-center justify-between gap-3 border-t border-zinc-600 bg-zinc-900 px-8 py-24 text-slate-100 md:flex-row md:px-28">
+			<div className="mx-auto flex flex-col items-center justify-between gap-3 border-t border-zinc-600 bg-zinc-900 px-8 py-24 text-slate-100 lg:flex-row md:px-28">
 				<section className="max-w-2xl">
 					<div className="mb-8 flex flex-col items-baseline gap-2">
 						<h2 className="font-accent text-3xl uppercase tracking-wide font-bold text-primary md:text-5xl">
@@ -166,7 +166,7 @@ export default function Home() {
 						</p>
 					</div>
 				</section>
-				<Image src={collage} alt="Collage" className="w-auto" />
+				<Image src={collage} alt="Collage" className="w-full lg:w-[40%]" />
 			</div>
 			<div className="relative -z-20 border-t border-zinc-600 bg-zinc-900 bg-[url(/images/home/back.avif)] bg-cover px-8 py-12">
 				<div className="absolute inset-0 -z-10 bg-black/40"></div>

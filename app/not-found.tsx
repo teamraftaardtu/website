@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function NotFound() {
 	return (
 		<Container className="flex max-w-2xl flex-col items-center text-center text-slate-200">
-			<h1 className="title mb-8">
+			<h1 className="title my-24">
 				We couldn’t find the page you’re looking for.
 			</h1>
 			<p className="text-lg">

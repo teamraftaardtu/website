@@ -55,7 +55,7 @@ function People({
 }) {
 	const results = sortBy(people, ["class"]).map((person) => (
 		<div
-			className="flex items-center gap-4 md:flex-col md:items-start"
+			className="flex items-center gap-4 md:flex-col md:items-center"
 			key={person.name}
 		>
 			<Image
