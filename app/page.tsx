@@ -20,13 +20,13 @@ function Photos() {
 				src={kaze}
 				alt="Picture of the class with Delian Asparouhov"
 				placeholder="blur"
-				className="hidden h-48 w-80 translate-y-12 -rotate-6 transform rounded-lg object-cover shadow-xl lg:block hover:translate-y-0 hover:-rotate-0"
+				className="hidden h-48 w-80 translate-y-12 -rotate-6 transform rounded-lg object-cover shadow-xl lg:block hover:translate-y-0"
 			/>
 			<Image
 				src={team}
 				alt="Picture of students in a classroom with a guest speaker in front of them"
 				placeholder="blur"
-				className="hidden h-48 w-96 translate-y-8 -rotate-1 transform rounded-lg object-cover shadow-xl sm:block"
+				className="hidden h-48 w-96 translate-y-8 -rotate-1 transform rounded-lg object-cover shadow-xl md:block"
 			/>
 			<Image
 				src={winner}
@@ -79,7 +79,7 @@ export default function Home() {
 					<div>
 						<h1 className="mt-8 max-w-xl text-center font-accent text-5xl [word-spacing:-10px] md:[word-spacing:-20px] font-bold uppercase italic !leading-[1.15] text-slate-200 drop-shadow-lg lg:text-left md:text-8xl">
 							We are{" "}
-							<span className="shiny text-orange-300 drop-shadow-lg md:[word-spacing:-50px]">
+							<span className="shiny text-orange-300 drop-shadow-lg [word-spacing:-25px] md:[word-spacing:-50px]">
 								speed ⚡️
 							</span>
 						</h1>
