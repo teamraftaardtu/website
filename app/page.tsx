@@ -172,21 +172,21 @@ export default function Home() {
 				<div className="absolute inset-0 -z-10 bg-black/40"></div>
 				<section className="mx-auto max-w-3xl">
 					<hr className="mx-auto h-1 w-12 border-0 bg-primary" />
-					<h2 className="py-2 text-center text-3xl font-bold italic text-slate-200 md:text-4xl">
+					<h2 className="py-2 text-center text-4xl font-accent font-bold italic text-slate-200 md:text-6xl">
 						SPONSORS
 					</h2>
 					<hr className="mx-auto h-1 w-12 border-0 bg-primary" />
 					<div className="mt-10 flex flex-col items-center justify-center gap-5 md:flex-row md:flex-wrap md:gap-10">
-						<Image src={solidWorks} alt="Solid Works" className="h-8 w-auto" />
-						<Image src={ansys} alt="Ansys" className="h-8 w-auto" />
-						<Image src={altair} alt="Altair" className="h-8 w-auto" />
+						<Image src={solidWorks} alt="Solid Works" className="h-12 w-auto" />
+						<Image src={ansys} alt="Ansys" className="h-12 w-auto" />
+						<Image src={altair} alt="Altair" className="h-12 w-auto" />
 						<Image
 							src={codingninjas}
 							alt="Coding Ninjas"
-							className="h-12 w-auto"
+							className="h-16 w-auto"
 						/>
-						<Image src={vactech} alt="Vactech" className="h-14 w-auto" />
-						<Image src={creo} alt="Creo" className="h-14 w-auto" />
+						<Image src={vactech} alt="Vactech" className="h-16 w-auto" />
+						<Image src={creo} alt="Creo" className="h-16 w-auto" />
 					</div>
 				</section>
 			</div>
