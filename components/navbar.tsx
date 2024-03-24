@@ -12,18 +12,18 @@ export default function Navbar() {
 	const pathname = usePathname()
 
 	return (
-		<nav className="flex flex-col items-stretch justify-between gap-x-14 md:bg-neutral-200 text-slate-700 md:flex-row md:items-center mt-8 md:mt-0 md:border-t-[30px] border-black md:px-20">
+		<nav className="flex flex-col items-stretch justify-between gap-x-14 bg-neutral-200 text-slate-700 md:flex-row md:items-center md:mt-0 border-t-[2rem] border-black md:px-20">
 			<input type="checkbox" id="toggle" className="peer hidden" />
 			<div className="flex items-center justify-between px-8 md:px-0">
 				<a href="/" className="flex items-center gap-4">
 					<LogoBlack />
-					<LogoWhite />
+					{/* <LogoWhite /> */}
 				</a>
 				<label htmlFor="toggle" className="cursor-pointer md:hidden">
-					<HamburgerMenuIcon className="h-8 w-8 text-white" />
+					<HamburgerMenuIcon className="h-8 w-8 text-black" />
 				</label>
 			</div>
-			<ul className="hidden flex-col border-y bg-primary text-lg font-accent tracking-wide font-bold text-black uppercase shadow-sm peer-checked:flex md:flex md:flex-row md:divide-x divide-zinc-300 md:border-none md:bg-transparent md:shadow-none">
+			<ul className="hidden flex-col bg-neutral-200 text-lg font-accent tracking-wide font-bold text-black uppercase divide-y-2 md:divide-y-0 shadow-sm peer-checked:flex md:flex md:flex-row md:divide-x-2 divide-zinc-300 md:bg-transparent md:shadow-none">
 				{navLinks.map(({ link, title }) => (
 					<li key={link}>
 						<a
