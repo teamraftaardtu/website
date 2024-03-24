@@ -15,7 +15,7 @@ module.exports = {
 			},
 			fontFamily: {
 				primary: ["Circular", defaultTheme.fontFamily.sans],
-				accent: ["Ambit", defaultTheme.fontFamily.sans],
+				accent: ["Monument", defaultTheme.fontFamily.sans],
 			},
 			backgroundImage: {
 				"-gradient-60": "linear-gradient(-60deg, var(--tw-gradient-stops))",

@@ -1,15 +1,19 @@
 @font-face {
-	font-family: "Ambit";
-	src: url("/fonts/Ambit/Ambit-Regular.otf") format("opentype"),
-		url("/fonts/Ambit/Ambit-Regular.ttf") format("truetype");
+	font-family: "Monument";
+	src: url("/fonts/Monument/MonumentExtended-Regular.otf") format("opentype");
 	font-weight: normal;
 }
 
 @font-face {
-	font-family: "Ambit";
-	src: url("/fonts/Ambit/Ambit-Bold.otf") format("opentype"),
-		url("/fonts/Ambit/Ambit-Bold.ttf") format("truetype");
+	font-family: "Monument";
+	src: url("/fonts/Monument/MonumentExtended-Ultrabold.otf") format("opentype");
 	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Monument";
+	src: url("/fonts/Monument/MonumentExtended-Italic.otf") format("opentype");
+	font-weight: italic;
 }
 
 @font-face {
@@ -50,3 +54,4 @@
 	font-weight: 500;
 	font-style: "normal";
 }
+

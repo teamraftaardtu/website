@@ -11,8 +11,8 @@ import team from "@/public/images/team-min.jpeg"
 export default function About() {
 	return (
 		<Container>
-			<h1 className="mb-6 text-center font-accent text-4xl font-bold text-primary">
-				Our Mission
+			<h1 className="mb-6 text-center tracking-wide font-accent text-4xl font-bold text-primary">
+				OUR MISSION
 			</h1>
 			<div className="flex flex-col items-center gap-6 md:flex-row">
 				<Image
@@ -51,11 +51,11 @@ export default function About() {
 					</p>
 				</section>
 			</div>
-			<h1 className="mb-4 mt-8 text-center font-accent text-4xl font-bold text-primary">
-				Past Vehicles
+			<h1 className="mb-4 mt-12 text-center font-accent tracking-wide text-4xl font-bold text-primary">
+				PAST VEHICLES
 			</h1>
 			<div className="mt-12 grid gap-6 md:grid-cols-3 md:gap-12">
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-900">
+				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
 					<Image
 						src={kaze}
 						alt="New"
@@ -68,7 +68,7 @@ export default function About() {
 					</div>
 				</div>
 
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-900">
+				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
 					<Image
 						src={mach4}
 						alt="New"
@@ -81,7 +81,7 @@ export default function About() {
 					</div>
 				</div>
 
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-900">
+				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
 					<Image
 						src={nimbus}
 						alt="New"
@@ -93,7 +93,7 @@ export default function About() {
 						</p>
 					</div>
 				</div>
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-900">
+				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
 					<Image
 						src={pegasus}
 						alt="New"
@@ -106,7 +106,7 @@ export default function About() {
 					</div>
 				</div>
 
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-900">
+				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
 					<Image
 						src={eurus}
 						alt="New"
@@ -118,7 +118,7 @@ export default function About() {
 						</p>
 					</div>
 				</div>
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-900">
+				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
 					<Image
 						src={falcon}
 						alt="New"

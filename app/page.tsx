@@ -20,7 +20,7 @@ function Photos() {
 				src={kaze}
 				alt="Picture of the class with Delian Asparouhov"
 				placeholder="blur"
-				className="hidden h-48 w-96 translate-y-8 -rotate-6 transform rounded-lg object-cover shadow-xl lg:block"
+				className="hidden h-48 w-96 translate-y-8 -rotate-6 transform rounded-lg object-cover shadow-xl lg:block hover:translate-y-0 hover:-rotate-0"
 			/>
 			<Image
 				src={team}
@@ -50,7 +50,7 @@ function Background() {
 				}}
 				className="absolute inset-0 -z-10"
 			/>
-			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-zinc-800 to-50%" />
+			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-zinc-950 to-60%" />
 		</>
 	)
 }
@@ -69,22 +69,21 @@ export default function Home() {
 				>
 					Apply to Team Raftaar »
 				</Link>
-				<div className="flex flex-col items-center md:flex-row">
+				<div className="flex flex-col md:gap-20 md:justify-between items-center md:flex-row">
 					<Image
 						priority
 						src={vehicle}
 						alt=""
-						className="-z-10 mt-16 h-auto w-5/6 rotate-6 md:hidden"
+						className="-z-10 mt-16 h-auto w-5/6 rotate-6 md:hidden hover:rotate-0 transition ease-in-out duration-300"
 					/>
 					<div>
-						<h1 className="mt-8 max-w-2xl text-center font-primary text-4xl font-bold uppercase italic !leading-[1.15] tracking-tighter text-slate-200 drop-shadow-lg md:text-left md:text-6xl">
+						<h1 className="mt-8 max-w-xl text-center font-accent text-5xl [word-spacing:-10px] md:[word-spacing:-20px] font-bold uppercase italic !leading-[1.15] text-slate-200 drop-shadow-lg md:text-left md:text-8xl">
 							We are{" "}
 							<span className="shiny text-orange-300 drop-shadow-lg">
 								speed{" "}
-							</span>
-							💨
+							</span>⚡️
 						</h1>
-						<p className="mx-auto mb-10 mt-8 max-w-[45ch] text-center text-lg text-slate-100 sm:text-xl md:text-left">
+						<p className="mx-auto mb-6 mt-8 max-w-[45ch] text-center text-lg text-slate-100 sm:text-xl md:text-left md:ml-3">
 							Team Raftaar is the Hybrid Human Powered Vehicle developing team
 							of Delhi Technological University established in 2011.
 						</p>
@@ -92,16 +91,16 @@ export default function Home() {
 					<Image
 						src={vehicle}
 						alt=""
-						className="-z-10 my-16 hidden h-auto w-[600px] rotate-6 md:block"
+						className="my-16 hidden h-auto w-[600px] rotate-6 md:block hover:rotate-0 transition ease-in-out duration-300"
 					/>
 				</div>
 				<Photos />
 			</Container>
 
-			<div className="mx-auto flex flex-col items-center justify-between gap-3 border-t border-zinc-600 bg-zinc-800 px-8 py-24 text-slate-100 md:flex-row md:px-28">
+			<div className="mx-auto flex flex-col items-center justify-between gap-3 border-t border-zinc-600 bg-zinc-900 px-8 py-24 text-slate-100 md:flex-row md:px-28">
 				<section className="max-w-2xl">
 					<div className="mb-8 flex flex-col items-baseline gap-2">
-						<h2 className="font-accent text-3xl font-bold text-primary md:text-4xl">
+						<h2 className="font-accent text-3xl uppercase tracking-wide font-bold text-primary md:text-5xl">
 							Major Achievements
 						</h2>
 						<p className="text-2xl text-white">and counting...</p>

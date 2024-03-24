@@ -19,7 +19,7 @@ export default function RootLayout({
 			<head>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 			</head>
-			<body className="font-primary antialiased bg-zinc-800">
+			<body className="font-primary antialiased bg-zinc-900">
 				<Navbar />
 				{children}
 				<Footer />

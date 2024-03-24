@@ -86,16 +86,19 @@ function People({
 export default function Team() {
 	return (
 		<Container>
-			<h1 className="mb-4 text-center font-accent text-4xl font-bold text-primary">
-				CORE Panel
+			<h1 className="mb-4 text-center font-accent text-5xl tracking-wide font-bold text-primary">
+				CORE MEMBERS
 			</h1>
 			<p className="text-center text-lg text-slate-200 sm:text-xl">
 				We’re a small team of facilitators with an ambitious mission.
 			</p>
 			<People people={team} order="asc" />
-			<h2 className="mt-12 text-center font-accent text-3xl font-bold text-primary">
-				Alumni
+			<h2 className="mt-16 mb-4 text-center font-accent text-5xl tracking-wide font-bold text-primary">
+				ALUMNI
 			</h2>
+			<p className="text-center text-lg text-slate-200 sm:text-xl">
+				Our past superstars
+			</p>
 			<People people={alumni} order="asc" />
 		</Container>
 	)
