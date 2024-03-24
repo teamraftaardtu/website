@@ -12,7 +12,7 @@ export default function Navbar() {
 	const pathname = usePathname()
 
 	return (
-		<nav className="flex flex-col items-stretch justify-between gap-x-14 md:bg-neutral-200 text-slate-700 md:flex-row md:items-center mt-12 md:mt-0 md:border-t-[30px] border-black md:px-20">
+		<nav className="flex flex-col items-stretch justify-between gap-x-14 md:bg-neutral-200 text-slate-700 md:flex-row md:items-center mt-8 md:mt-0 md:border-t-[30px] border-black md:px-20">
 			<input type="checkbox" id="toggle" className="peer hidden" />
 			<div className="flex items-center justify-between px-8 md:px-0">
 				<a href="/" className="flex items-center gap-4">
