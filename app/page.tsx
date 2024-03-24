@@ -9,7 +9,7 @@ import creo from "@/public/images/sponsors/creo.png"
 import vactech from "@/public/images/sponsors/vactech.png"
 import codingninjas from "@/public/images/sponsors/ninjas.png"
 import altair from "@/public/images/sponsors/altair.png"
-import vehicle from "@/public/images/home/vehicle-transformed.png"
+import vehicle from "@/public/images/home/vehicle-transformed.webp"
 import Container from "@/components/container"
 import Link from "next/link"
 
@@ -89,6 +89,7 @@ export default function Home() {
 						</p>
 					</div>
 					<Image
+						priority
 						src={vehicle}
 						alt=""
 						className="my-16 hidden h-auto w-[600px] rotate-6 md:block hover:rotate-0 transition ease-in-out duration-300"
