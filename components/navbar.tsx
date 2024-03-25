@@ -22,7 +22,7 @@ export default function Navbar() {
 					<HamburgerMenuIcon className="h-10 w-10 text-black" />
 				</label>
 			</div>
-			<ul className="hidden flex-col bg-neutral-200 text-2xl md:text-4xl font-accent tracking-wide font-bold text-black uppercase divide-y-2 lg:divide-y-0 shadow-sm peer-checked:flex lg:flex lg:flex-row lg:divide-x-2 divide-zinc-300 md:bg-transparent md:shadow-none">
+			<ul className="hidden flex-col bg-neutral-200 text-2xl lg:text-5xl mt-4 lg:mt-0 font-accent tracking-wide font-bold text-black uppercase divide-y-2 lg:divide-y-0 shadow-sm peer-checked:flex lg:flex lg:flex-row lg:divide-x-2 divide-zinc-300 lg:bg-transparent lg:shadow-none">
 				{navLinks.map(({ link, title }) => (
 					<li key={link}>
 						<a

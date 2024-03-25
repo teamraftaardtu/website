@@ -18,7 +18,7 @@ export default function About() {
 				<Image
 					src={team}
 					alt="Whole Team Pic"
-					className="h-auto w-full rounded-lg md:w-1/2"
+					className="h-auto w-full rounded-lg md:w-[500px]"
 				/>
 				<section className="mx-auto text-left text-lg text-slate-200">
 					<p className="my-2 leading-snug">
