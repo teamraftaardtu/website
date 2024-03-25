@@ -77,7 +77,7 @@ export default function Home() {
 						className="-z-10 mt-16 h-auto w-5/6 rotate-6 lg:hidden hover:rotate-0 transition ease-in-out duration-300"
 					/>
 					<div>
-						<h1 className="mt-8 max-w-xl text-center font-accent text-6xl [word-spacing:-10px] md:[word-spacing:-20px] font-bold uppercase italic !leading-[1.15] text-slate-200 drop-shadow-lg lg:text-left md:text-8xl">
+						<h1 className="mt-8 max-w-xl text-center font-accent text-5xl [word-spacing:-10px] md:[word-spacing:-20px] font-bold uppercase italic !leading-[1.15] text-slate-200 drop-shadow-lg lg:text-left md:text-8xl">
 							We are{" "}
 							<span className="shiny text-orange-300 drop-shadow-lg [word-spacing:-25px] md:[word-spacing:-50px]">
 								speed ⚡️
