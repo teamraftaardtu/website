@@ -50,7 +50,7 @@ function Background() {
 				}}
 				className="absolute inset-0 -z-10"
 			/>
-			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-zinc-950 to-50%" />
+			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-zinc-900 to-50%" />
 		</>
 	)
 }
@@ -98,7 +98,7 @@ export default function Home() {
 				<Photos />
 			</Container>
 
-			<div className="mx-auto flex flex-col items-center justify-between gap-3 border-t border-zinc-600 bg-zinc-900 px-8 py-24 text-slate-100 lg:flex-row md:px-28">
+			<div className="mx-auto flex flex-col items-center justify-between gap-3 border-t border-zinc-600 bg-zinc-950 px-8 py-24 text-slate-100 lg:flex-row md:px-28">
 				<section className="max-w-2xl">
 					<div className="mb-8 flex flex-col items-baseline gap-2">
 						<h2 className="font-accent text-3xl uppercase tracking-wide font-bold text-primary md:text-5xl">
@@ -168,11 +168,11 @@ export default function Home() {
 				</section>
 				<Image src={collage} alt="Collage" className="w-full lg:w-[40%]" />
 			</div>
-			<div className="relative -z-20 border-t border-zinc-600 bg-zinc-900 bg-[url(/images/home/back.avif)] bg-cover px-8 py-12">
-				<div className="absolute inset-0 -z-10 bg-black/40"></div>
+			<div className="relative -z-20 border-t border-zinc-600 bg-zinc-900 bg-[url(/images/home/back.jpeg)] bg-cover px-8 py-12">
+				<div className="absolute inset-0 -z-10 bg-black/50"></div>
 				<section className="mx-auto max-w-3xl">
 					<hr className="mx-auto h-1 w-12 border-0 bg-primary" />
-					<h2 className="py-2 text-center text-4xl font-accent font-bold italic text-slate-200 md:text-6xl">
+					<h2 className="py-2 text-center text-5xl font-accent font-bold text-slate-200 md:text-7xl">
 						SPONSORS
 					</h2>
 					<hr className="mx-auto h-1 w-12 border-0 bg-primary" />

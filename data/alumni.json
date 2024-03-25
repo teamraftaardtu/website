@@ -67,5 +67,26 @@
 		"por": "Analysis Head",
 		"linkedin": "https://www.linkedin.com/in/arko-sardar-3993b922b/",
 		"image": "arko.jpeg"
+	},
+	{
+		"name": "Ankur Singh",
+		"class": "14",
+		"por": "Team Lead (MACH 4)",
+		"linkedin": "https://www.linkedin.com/in/ankur-singh-a38543160",
+		"image": "ankursingh.jpeg"
+	},
+	{
+		"name": "Shivam",
+		"class": "22",
+		"por": "Frame Dynamics Head",
+		"linkedin": "https://www.linkedin.com/in/shivamsingh271999",
+		"image": "shivam.jpeg"
+	},
+	{
+		"name": "Shourya Sahdev",
+		"class": "21",
+		"por": "Vice-Captain",
+		"linkedin": "https://www.linkedin.com/in/shouryasahdev",
+		"image": "shourya.jpg"
 	}
 ]

@@ -65,6 +65,13 @@
 		"image": "yogender.jpeg"
 	},
 	{
+		"name": "Yash Sharma",
+		"class": "25",
+		"por": "Analysis Head",
+		"linkedin": "https://www.linkedin.com/in/sharma-yash29/",
+		"image": "yash.png"
+	},
+	{
 		"name": "Prerna Saini",
 		"class": "25",
 		"por": "Software Co-Head",
@@ -76,5 +83,38 @@
 		"class": "25",
 		"por": "Designer",
 		"image": "mahatva.jpg"
+	},
+	{
+		"name": "Shubhangam Sharan",
+		"class": "26",
+		"por": "Mechanical Co-Head",
+		"linkedin": "https://www.linkedin.com/in/shubhangam-sharan-b25196249/",
+		"image": "shubhangam.jpg"
+	},
+	{
+		"name": "Alen Jose Lakra",
+		"class": "26",
+		"por": "Mechanical Co-Head",
+		"image": "alen.jpg"
+	},
+	{
+		"name": "Shiva",
+		"class": "26",
+		"por": "Mechanical Co-Head",
+		"image": "shiva.jpg"
+	},
+	{
+		"name": "Anush Shah",
+		"class": "27",
+		"por": "Mechanical Co-Head",
+		"linkedin": "https://www.linkedin.com/in/anush-shah-0978711b0/",
+		"image": "anush.jpg"
+	},
+	{
+		"name": "Alok Kumar",
+		"class": "27",
+		"por": "Mechanical Co-Head",
+		"linkedin": "https://www.linkedin.com/in/alok-kumar-a8574329a/",
+		"image": "alok.jpeg"
 	}
 ]
