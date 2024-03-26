@@ -88,5 +88,12 @@
 		"por": "Vice-Captain",
 		"linkedin": "https://www.linkedin.com/in/shouryasahdev",
 		"image": "shourya.jpg"
+	},
+	{
+		"name": "Akash Agrawal",
+		"class": "19",
+		"por": "Captain",
+		"linkedin": "https://www.linkedin.com/in/akash-agrawal-059307143/",
+		"image": "akash.jpg"
 	}
 ]
