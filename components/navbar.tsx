@@ -12,7 +12,7 @@ export default function Navbar() {
 	const pathname = usePathname()
 
 	return (
-		<nav className="flex flex-col items-stretch justify-between py-4 lg:py-0 gap-x-14 bg-neutral-200 text-slate-700 lg:flex-row lg:items-center lg:mt-0 border-t-[2rem] border-black md:px-20">
+		<nav className="flex flex-col items-stretch justify-between py-4 lg:py-0 gap-x-14 bg-white text-slate-700 lg:flex-row lg:items-center lg:mt-0 border-t-[2rem] border-black md:px-20">
 			<input type="checkbox" id="toggle" className="peer hidden" />
 			<div className="flex items-center justify-between px-8 md:px-0">
 				<a href="/" className="flex items-center gap-4">
@@ -22,7 +22,7 @@ export default function Navbar() {
 					<HamburgerMenuIcon className="h-10 w-10 text-black" />
 				</label>
 			</div>
-			<ul className="hidden flex-col bg-neutral-200 text-2xl lg:text-5xl mt-4 lg:mt-0 font-accent tracking-wide font-bold text-black uppercase divide-y-2 lg:divide-y-0 shadow-sm peer-checked:flex lg:flex lg:flex-row lg:divide-x-2 divide-zinc-300 lg:bg-transparent lg:shadow-none">
+			<ul className="hidden flex-col bg-neutral-200 text-2xl lg:text-5xl mt-4 lg:mt-0 font-accent tracking-wide font-bold text-black uppercase divide-y-2 lg:divide-y-0 shadow-sm peer-checked:flex lg:flex lg:flex-row lg:divide-x-2 divide-zinc-100 lg:bg-transparent lg:shadow-none">
 				{navLinks.map(({ link, title }) => (
 					<li key={link}>
 						<a
