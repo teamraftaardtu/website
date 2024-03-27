@@ -50,7 +50,7 @@ function Background() {
 				}}
 				className="absolute inset-0 -z-10"
 			/>
-			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-zinc-900 to-50%" />
+			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-15% to-zinc-900 to-50%" />
 		</>
 	)
 }
@@ -172,7 +172,7 @@ export default function Home() {
 				<div className="absolute inset-0 -z-10 bg-black/50"></div>
 				<section className="mx-auto max-w-3xl">
 					<hr className="mx-auto h-1 w-12 border-0 bg-primary" />
-					<h2 className="py-2 text-center text-4xl font-accent font-bold text-slate-200 md:text-7xl">
+					<h2 className="py-2 text-center text-4xl font-accent font-bold text-white md:text-8xl">
 						SPONSORS
 					</h2>
 					<hr className="mx-auto h-1 w-12 border-0 bg-primary" />
