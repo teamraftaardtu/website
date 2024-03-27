@@ -86,14 +86,31 @@ function People({
 export default function Team() {
 	return (
 		<Container>
-			<h1 className="mb-4 text-center font-accent text-5xl tracking-wide font-bold text-primary">
+			<h1 className="mb-4 text-center font-accent text-4xl font-bold tracking-wide text-primary">
+				FACULTY ADVISOR
+			</h1>
+			<div className="flex items-center gap-3 md:flex-col">
+				<Image
+					src="/images/team/raghav.jpeg"
+					alt="Picture of Raghvendra Gautam"
+					width="200"
+					height="200"
+					className="h-24 w-24 rounded-lg object-cover object-top shadow-sm md:h-44 md:w-44"
+				/>
+				<div>
+					<p className="text-lg font-medium text-white">
+						Dr. Raghvendra Gautam
+					</p>
+				</div>
+			</div>
+			<h1 className="mb-4 mt-6 text-center font-accent text-5xl font-bold tracking-wide text-primary">
 				CORE MEMBERS
 			</h1>
 			<p className="text-center text-lg text-slate-200 sm:text-xl">
 				We’re a small team of facilitators with an ambitious mission.
 			</p>
 			<People people={team} order="asc" />
-			<h2 className="mt-16 mb-4 text-center font-accent text-5xl tracking-wide font-bold text-primary">
+			<h2 className="mb-4 mt-16 text-center font-accent text-5xl font-bold tracking-wide text-primary">
 				ALUMNI
 			</h2>
 			<p className="text-center text-lg text-slate-200 sm:text-xl">
