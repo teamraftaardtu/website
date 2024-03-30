@@ -82,7 +82,18 @@
 		"name": "Mahatva Anand",
 		"class": "25",
 		"por": "Designer",
+		"instagram":"https://www.instagram.com/mahatva._.anand/",
+		"email":"mahatva.anand123456@gmail.com",
 		"image": "mahatva.jpg"
+	},
+	{
+		"name": "Harshit Chandna",
+		"class": "25",
+		"por": "Designer",
+		"linkedin": "https://www.linkedin.com/in/hchandna/",
+		"behance":"https://www.behance.net/harshitchandna1",
+		"email":"gdscharshit@gmail.com",
+		"image": "harshit.jpg"
 	},
 	{
 		"name": "Shubhangam Sharan",
