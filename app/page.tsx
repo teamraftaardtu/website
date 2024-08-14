@@ -64,7 +64,7 @@ export default function Home() {
 				className="flex flex-col items-start pb-0 sm:items-center sm:text-center"
 			>
 				<Link
-					href="https://join.teamraftaar.com/"
+					href="https://join.teamraftaar.in/"
 					className="mx-auto transform whitespace-nowrap rounded-full bg-zinc-100 px-4 py-1 text-base font-bold text-slate-700 transition-transform duration-500 hover:translate-x-2"
 				>
 					Apply to Team Raftaar »
