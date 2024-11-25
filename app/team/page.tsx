@@ -8,7 +8,7 @@ interface SocialsProps {
 	person: Person
 }
 function Socials({ person }: SocialsProps) {
-	const socials = ["linkedin", "twitter", "email", "instagram", "behance"] as const
+	const socials = ["linkedin", "website", "email", "instagram", "behance"] as const
 
 	return (
 		<div className="mt-4 flex gap-2">
@@ -43,7 +43,7 @@ interface Person {
 	por: string
 	image: string
 	linkedin?: string
-	twitter?: string
+	website?: string
 	email?: string
 	instagram?: string
 	behance?: string
