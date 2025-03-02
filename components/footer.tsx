@@ -36,7 +36,7 @@ export default function Footer() {
 				<p className="text-neutral-200">
 					© 2024 • Made with ❤️ by{" "}
 					<a
-						href="https://www.linkedin.com/in/priyanshusinha77/"
+						href="https://priyanshusinha.in/"
 						className="underline underline-offset-4 transition-colors hover:decoration-primary"
 					>
 						Priyanshu Sinha
