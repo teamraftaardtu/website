@@ -102,5 +102,26 @@
 		"por": "Captain",
 		"linkedin": "https://www.linkedin.com/in/priyansh-singh/",
 		"image": "priyansh.jpg"
+	},
+	{
+		"name": "Hrishabh Jha",
+		"class": "20",
+		"por": "Team Lead",
+		"linkedin": "https://www.linkedin.com/in/hrishabhjha/",
+		"image": "hrishabh.jpg"
+	},
+	{
+		"name": "Avhishek Jha",
+		"class": "20",
+		"por": "Vice-Captain & Head of Mechanical Department",
+		"linkedin": "https://www.linkedin.com/in/avhishekjha/",
+		"image": "avhishek.jpg"
+	},
+	{
+		"name": "Krishan Gupta",
+		"class": "20",
+		"por": "Design and Analysis Head",
+		"linkedin": "https://www.linkedin.com/in/krishangupta33",
+		"image": "krishan.jpg"
 	}
 ]
