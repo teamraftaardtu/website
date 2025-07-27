@@ -123,9 +123,23 @@
     },
     {
         "name": "Prakhar Awasthi",
-        "class": "27",
+        "class": "28",
         "por": "Technical Assistant",
         "linkedin": "https://www.linkedin.com/in/prakhar-awasthi-41a407282/",
         "image": "Prakhar.jpg"
+    },
+	{
+        "name": "Mrityunjay Kumar",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/mrityuphilia/",
+        "image": "Mrityunjay kumar.jpg"
+    },
+	{
+        "name": "Nagmani",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/nagmaniparbat/",
+        "image": "Nagmani.jpg"
     }
 ]
