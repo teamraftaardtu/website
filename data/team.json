@@ -15,77 +15,20 @@
         "email": "priyanshusinha.dtu@gmail.com",
         "image": "sinha.jpeg"
     },
-    {
-        "name": "Aditya Singh",
-        "class": "25",
-        "por": "Vice-Captain",
-        "linkedin": "https://www.linkedin.com/in/aditya-singh-28a37a146/",
-        "image": "adityasingh.jpg"
-    },
-    {
-        "name": "Aditya Yadav",
-        "class": "25",
-        "por": "Manager",
-        "linkedin": "https://www.linkedin.com/in/aditya-yadav-3ba9981b9/",
-        "image": "ayadav.jpg"
-    },
-    {
-        "name": "Vishal Yadav",
-        "class": "25",
-        "por": "Corporate Head",
-        "linkedin": "https://www.linkedin.com/in/vishal-yadav-413a5222a/",
-        "image": "vishal.jpeg"
-    },
-    {
-        "name": "Ayush Kumar",
-        "class": "25",
-        "por": "Mechanical Head",
-        "linkedin": "https://www.linkedin.com/in/ayush-kumar-17446a201/",
-        "image": "ayush.jpeg"
-    },
-    {
-        "name": "Teeksha Harish",
-        "class": "25",
-        "por": "Software Head",
-        "linkedin": "https://www.linkedin.com/in/teeksha-harish-5895a0234/",
-        "image": "teekshaharish.jpg"
-    },
-    {
-        "name": "Harsh Kumar Yadav",
-        "class": "25",
-        "por": "Manufacturing Head",
-        "linkedin": "https://www.linkedin.com/in/harsh-kumar-yadav-45673a266/",
-        "image": "Harsh.jpeg"
-    },
-    {
-        "name": "Yogender",
-        "class": "25",
-        "por": "Analysis Head",
-        "linkedin": "https://www.linkedin.com/in/yogender-a35558256/",
-        "image": "yogender.jpeg"
-    },
-    {
-        "name": "Yash Sharma",
-        "class": "25",
-        "por": "Analysis Head",
-        "linkedin": "https://www.linkedin.com/in/sharma-yash29/",
-        "image": "yash.png"
-    },
-    {
-        "name": "Prerna Saini",
-        "class": "25",
-        "por": "Software Co-Head",
-        "linkedin": "https://www.linkedin.com/in/prerna-saini-936347242/",
-        "image": "prerna.jpg"
-    },
-    {
+	{
         "name": "Mahatva Anand",
         "class": "25",
-        "por": "Designer",
+        "por": "Design Head",
         "instagram": "https://www.instagram.com/mahatva._.anand/",
         "email": "mahatva.anand123456@gmail.com",
         "image": "mahatva.jpg"
     },
+    {
+        "name": "Piyush ",
+        "class": "25",
+        "por": "Engineering Head",
+        "image": "Piyush 4th.jpg"
+    }, 
     {
         "name": "Harshit Chandna",
         "class": "25",
@@ -94,18 +37,6 @@
         "behance": "https://www.behance.net/harshitchandna1",
         "email": "gdscharshit@gmail.com",
         "image": "harshit.jpg"
-    },
-    {
-        "name": "Alen Jose Lakra",
-        "class": "26",
-        "por": "Mechanical Co-Head",
-        "image": "alen.jpg"
-    },
-    {
-        "name": "Shiva",
-        "class": "26",
-        "por": "Mechanical Co-Head",
-        "image": "shiva.jpg"
     },
     {
         "name": "Anush Shah",
@@ -119,7 +50,21 @@
         "class": "27",
         "por": "Mechanical Co-Head",
         "linkedin": "https://www.linkedin.com/in/alok-kumar-a8574329a/",
-        "image": "alok.jpeg"
+        "image": "WhatsApp Image 2025-07-28 at 9.43.06 AM.jpeg"
+    },
+    {
+        "name": "Kovidh Agrawal",
+        "class": "27",
+        "por": "Electrical Co-Head",
+        "linkedin": "https://www.linkedin.com/in/kovidhagrawal/",
+        "image": "Kovidh Agrawal.jpg"
+    },
+    {
+        "name": "Rachit Arora",
+        "class": "27",
+        "por": "Corporate Co-Head",
+        "linkedin": "https://www.linkedin.com/in/rachitarora25/",
+        "image": "RachitAroraCorporateCoHead.jpg"
     },
     {
         "name": "Prakhar Awasthi",
@@ -141,5 +86,40 @@
         "por": "Mechanical Assistant",
         "linkedin": "https://www.linkedin.com/in/nagmaniparbat/",
         "image": "Nagmani.jpg"
+    },
+    {
+        "name": "Kshitij Yadav",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/kshitij-yadav-b039502b8/",
+        "image": "Kshitij.png"
+    },
+    {
+        "name": "Lakshay",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/lakshaytong/",
+        "image": "Lakshay.webp"
+    },
+    {
+        "name": "Raju Yadav",
+        "class": "28",
+        "por": "Corporate Assistant",
+        "linkedin": "https://www.linkedin.com/in/raju-yadav-27720a347/",
+        "image": "Raju Yadav.jpg"
+    },
+    {
+        "name": "Mohommad Zeyan Sayeed",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/mohammadzeyansayeed-b233b9278/",
+        "image": "zeyan.jpg"
+    },
+    {
+        "name": "Snehal Anand",
+        "class": "28",
+        "por": "Corporate Assistant",
+        "linkedin": "https://www.linkedin.com/in/snehal-anand-609222259/",
+        "image": "Snehal Anand 2nd Year .jpg"
     }
 ]
