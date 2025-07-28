@@ -52,99 +52,38 @@ export default function About() {
 					</p>
 				</section>
 			</div>
+
 			<h1 className="mb-4 mt-12 text-center font-accent tracking-wide text-4xl font-bold text-primary">
 				PAST VEHICLES
 			</h1>
+
 			<div className="mt-12 grid gap-6 md:grid-cols-3 md:gap-12">
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
-					<Image
-						src={kaze}
-						alt="New"
-						className="h-auto w-full object-cover object-top shadow-sm"
-					/>
-					<div>
-						<p className="my-2 justify-self-center text-lg font-medium text-white">
-							KAZE
-						</p>
+				{[
+					{ src: kaze, name: "KAZE" },
+					{ src: mach4, name: "MACH4" },
+					{ src: nimbus, name: "NIMBUS" },
+					{ src: pegasus, name: "PEGASUS" },
+					{ src: eurus, name: "EURUS" },
+					{ src: falcon, name: "FALCON" },
+					{ src: vayu, name: "VAYU" }, 
+				].map((vehicle, index) => (
+					<div
+						key={index}
+						className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800"
+					>
+						<Image
+							src={vehicle.src}
+							alt={vehicle.name}
+							className="h-auto w-full object-cover object-top shadow-sm"
+						/>
+						<div>
+							<p className="my-2 justify-self-center text-lg font-medium text-white">
+								{vehicle.name}
+							</p>
+						</div>
 					</div>
-				</div>
-
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
-					<Image
-						src={mach4}
-						alt="New"
-						className="h-auto w-full object-cover object-top shadow-sm"
-					/>
-					<div>
-						<p className="my-2 justify-self-center text-lg font-medium text-white">
-							MACH4
-						</p>
-					</div>
-				</div>
-
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
-					<Image
-						src={nimbus}
-						alt="New"
-						className="h-auto w-full object-cover object-top shadow-sm"
-					/>
-					<div>
-						<p className="my-2 justify-self-center text-lg font-medium text-white">
-							NIMBUS
-						</p>
-					</div>
-				</div>
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
-					<Image
-						src={pegasus}
-						alt="New"
-						className="h-auto w-full object-cover object-top shadow-sm"
-					/>
-					<div>
-						<p className="my-2 justify-self-center text-lg font-medium text-white">
-							PEGASUS
-						</p>
-					</div>
-				</div>
-
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
-					<Image
-						src={eurus}
-						alt="New"
-						className="h-auto w-full object-cover object-top shadow-sm"
-					/>
-					<div>
-						<p className="my-2 justify-self-center text-lg font-medium text-white">
-							EURUS
-						</p>
-					</div>
-				</div>
-				<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
-					<Image
-						src={falcon}
-						alt="New"
-						className="h-auto w-full object-cover object-top shadow-sm"
-					/>
-					<div>
-						<p className="my-2 justify-self-center text-lg font-medium text-white">
-							FALCON
-						</p>
-					</div>
-				</div>
+				))}
 			</div>
-			<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
-	<Image
-		src={vayu}
-		alt="Vayu"
-		className="h-auto w-full object-cover object-top shadow-sm"
-	/>
-	<div>
-		<p className="my-2 justify-self-center text-lg font-medium text-white">
-			VAYU
-		</p>
-	</div>
-</div>
-
 		</Container>
 	)
 }
