@@ -4,16 +4,14 @@
         "class": "26",
         "por": "Captain",
         "linkedin": "https://www.linkedin.com/in/shubhangam-sharan-b25196249/",
-        "image": "shubhangam.jpg"
+        "image": "Shubhangam1.jpg"
     },
     {
-        "name": "Priyanshu Sinha",
-        "class": "25",
+        "name": "Devyank Ojha",
+        "class": "26",
         "por": "Vice-Captain",
-        "linkedin": "https://www.linkedin.com/in/priyanshusinhadtu/",
-        "twitter": "https://twitter.com/idkpriyanshu",
-        "email": "priyanshusinha.dtu@gmail.com",
-        "image": "sinha.jpeg"
+        "linkedin": "https://www.linkedin.com/in/devyank-ojha-4a156b252/",
+        "image": "Devyank Ojha 4th.jpg"
     },
 	{
         "name": "Mahatva Anand",
@@ -30,13 +28,18 @@
         "image": "Piyush 4th.jpg"
     }, 
     {
-        "name": "Harshit Chandna",
-        "class": "25",
-        "por": "Designer",
-        "linkedin": "https://www.linkedin.com/in/hchandna/",
-        "behance": "https://www.behance.net/harshitchandna1",
-        "email": "gdscharshit@gmail.com",
-        "image": "harshit.jpg"
+        "name": "Dhruv Dixit",
+        "class": "26",
+        "por": "Operation head",
+        "linkedin": "https://www.linkedin.com/in/dhruvdixit05a2/",
+        "image": "Dhruv Dixit 4th.jpg"
+    },
+    {
+        "name": "Alok Kumar",
+        "class": "27",
+        "por": "Mechanical Co-Head",
+        "linkedin": "https://www.linkedin.com/in/alok-kumar-a8574329a/",
+        "image": "WhatsApp Image 2025-07-28 at 9.43.06 AM.jpeg"
     },
     {
         "name": "Anush Shah",
@@ -46,11 +49,11 @@
         "image": "anush.jpg"
     },
     {
-        "name": "Alok Kumar",
+        "name": "Ayush Vashisth",
         "class": "27",
-        "por": "Mechanical Co-Head",
-        "linkedin": "https://www.linkedin.com/in/alok-kumar-a8574329a/",
-        "image": "WhatsApp Image 2025-07-28 at 9.43.06 AM.jpeg"
+        "por": "Electrical Co-Head",
+        "linkedin": "https://www.linkedin.com/in/ayush-vashisth-4a681b281/",
+        "image": "Ayush Vashisth.jpg"
     },
     {
         "name": "Kovidh Agrawal",
@@ -65,6 +68,13 @@
         "por": "Corporate Co-Head",
         "linkedin": "https://www.linkedin.com/in/rachitarora25/",
         "image": "RachitAroraCorporateCoHead.jpg"
+    },
+    {
+        "name": "Abhishek Saxena",
+        "class": "27",
+        "por": "Mechanical Co-Head",
+        "linkedin": "https://www.linkedin.com/in/abhishek-saxena-b89a622b2/",
+        "image": "WhatsApp Image 2025-07-28 at 8.44.23 PM.jpeg"
     },
     {
         "name": "Prakhar Awasthi",
@@ -95,6 +105,13 @@
         "image": "Kshitij.png"
     },
     {
+        "name": "Sarthak Mukherjee",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/sarthak-mukherjee-4a5594324/",
+        "image": "Sarthak Mukherjee.jpg"
+    },
+    {
         "name": "Lakshay",
         "class": "28",
         "por": "Mechanical Assistant",
@@ -114,5 +131,46 @@
         "por": "Corporate Assistant",
         "linkedin": "https://www.linkedin.com/in/snehal-anand-609222259/",
         "image": "Snehal Anand 2nd Year .jpg"
+    },
+    {
+        "name": "Mohit Sharma",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/snehal-anand-609222259/",
+        "image": "Mohit Sharma .jpg"
+    },
+    {
+        "name": "Vansh Bharti",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/vansh-bharti-097545324/",
+        "image": "Vansh bharti.jpg"
+    },
+    {
+        "name": "Shivam Rohatgi",
+        "class": "28",
+        "por": "Electrical Assistant",
+        "linkedin": "https://www.linkedin.com/in/shivam-rohatgi-65aab3291/",
+        "image": "Shivam Rohatgi .png"
+    },
+    {
+        "name": "Aditya",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/adiikashyy24/",
+        "image": "Aditya.webp"
+    },
+    {
+        "name": "Inzamamul Haque",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "image": "Inzamamul Haque.jpg"
+    },
+    {
+        "name": "Nikhil Dubey",
+        "class": "28",
+        "por": "Mechanical Assistant",
+        "linkedin": "https://www.linkedin.com/in/nikhil-dubey-45b75631b/",
+        "image": "nikhil dubey (1).jpeg"
     }
 ]
