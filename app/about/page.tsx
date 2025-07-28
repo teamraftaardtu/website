@@ -6,6 +6,7 @@ import nimbus from "@/public/images/vehicles/Nimbus.png"
 import pegasus from "@/public/images/vehicles/Pegasus.png"
 import eurus from "@/public/images/vehicles/Eurus.png"
 import falcon from "@/public/images/vehicles/Falcon.jpg"
+import vayu from "@/public/images/vehicles/VAYU.png"
 import team from "@/public/images/team-min.jpeg"
 
 export default function About() {
@@ -131,6 +132,19 @@ export default function About() {
 					</div>
 				</div>
 			</div>
+			<div className="flex flex-col items-center overflow-hidden rounded-lg border border-zinc-500 bg-zinc-800">
+	<Image
+		src={vayu}
+		alt="Vayu"
+		className="h-auto w-full object-cover object-top shadow-sm"
+	/>
+	<div>
+		<p className="my-2 justify-self-center text-lg font-medium text-white">
+			VAYU
+		</p>
+	</div>
+</div>
+
 		</Container>
 	)
 }
