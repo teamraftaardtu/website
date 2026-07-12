@@ -3,6 +3,21 @@
 @tailwind utilities;
 @import "./fonts.css";
 
+html,
+body,
+a,
+button {
+	cursor:
+		url("/images/cursor-bike.png") 3 2,
+		auto;
+}
+
+input,
+textarea,
+[contenteditable="true"] {
+	cursor: text;
+}
+
 @layer utilities {
 	.link {
 		@apply underline decoration-slate-400 decoration-dotted underline-offset-2;

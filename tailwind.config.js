@@ -10,8 +10,8 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#de800d",
-				accent: "#fcc2c1",
+				primary: "#dc2626",
+				accent: "#fecaca",
 			},
 			fontFamily: {
 				primary: ["Circular", defaultTheme.fontFamily.sans],

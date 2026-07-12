@@ -1,13 +1,10 @@
 import Image from "next/image"
-import kaze from "@/public/images/home/Kaze.png"
+import leftPhoto from "@/public/images/home/left-photo.png"
 import team from "@/public/images/home/team.jpeg"
 import winner from "@/public/images/home/winner.jpeg"
 import collage from "@/public/images/home/collage.png"
 import solidWorks from "@/public/images/sponsors/solidworks.png"
 import ansys from "@/public/images/sponsors/ansys.png"
-import creo from "@/public/images/sponsors/creo.png"
-import vactech from "@/public/images/sponsors/vactech.png"
-import codingninjas from "@/public/images/sponsors/ninjas.png"
 import altair from "@/public/images/sponsors/altair.png"
 import vehicle from "@/public/images/home/vehicle-transformed.webp"
 import Container from "@/components/container"
@@ -17,7 +14,7 @@ function Photos() {
 	return (
 		<div className="-z-10 mt-8 flex max-w-6xl items-start gap-12">
 			<Image
-				src={kaze}
+				src={leftPhoto}
 				alt="Picture of Team Raftaar with KAZE"
 				placeholder="blur"
 				className="hidden h-48 w-80 translate-y-12 -rotate-6 transform rounded-lg object-cover shadow-xl lg:block hover:translate-y-0"
@@ -43,9 +40,9 @@ function Background() {
 		<>
 			<div
 				style={{
-					backgroundColor: "rgb(240,146,48)",
+					backgroundColor: "rgb(185,28,28)",
 					backgroundImage:
-						"linear-gradient(rgb(224, 129, 27) 1px, transparent 1px), linear-gradient(to right, rgb(224, 129, 27) 1px, transparent 1px)",
+						"linear-gradient(rgb(153, 27, 27) 1px, transparent 1px), linear-gradient(to right, rgb(153, 27, 27) 1px, transparent 1px)",
 					backgroundSize: "80px 80px",
 				}}
 				className="absolute inset-0 -z-10"
@@ -74,12 +71,12 @@ export default function Home() {
 						priority
 						src={vehicle}
 						alt=""
-						className="-z-10 mt-16 h-auto w-5/6 rotate-6 lg:hidden hover:rotate-0 transition ease-in-out duration-300"
+						className="-z-10 mt-16 h-auto w-5/6 rotate-6 transition duration-300 ease-in-out hover:rotate-0 lg:hidden"
 					/>
 					<div>
 						<h1 className="mt-8 max-w-xl text-center font-accent text-5xl [word-spacing:-10px] md:[word-spacing:-20px] font-bold uppercase italic !leading-[1.15] text-slate-200 drop-shadow-lg lg:text-left md:text-8xl">
 							We are{" "}
-							<span className="shiny text-orange-300 drop-shadow-lg [word-spacing:-25px] md:[word-spacing:-50px]">
+							<span className="shiny text-red-300 drop-shadow-lg [word-spacing:-25px] md:[word-spacing:-50px]">
 								speed ⚡️
 							</span>
 						</h1>
@@ -92,7 +89,7 @@ export default function Home() {
 						priority
 						src={vehicle}
 						alt=""
-						className="my-16 hidden h-auto w-[500px] rotate-6 lg:block hover:rotate-0 transition ease-in-out duration-300"
+						className="my-16 hidden h-auto w-[500px] rotate-6 transition duration-300 ease-in-out hover:rotate-0 lg:block"
 					/>
 				</div>
 				<Photos />
@@ -109,8 +106,8 @@ export default function Home() {
 					<div className="flex flex-row items-center gap-3 text-lg">
 						<span>🏆</span>
 						<p className="my-2 text-lg">
-							Secured 1st position in the design event of eHPVC at the ASME EFx
-							India 2023.
+							Won 1st place in design at the 2025 ASME EFx India HPVC in
+							Bangalore.
 						</p>
 					</div>
 					<div className="flex flex-row items-center gap-3 text-lg">
@@ -181,12 +178,12 @@ export default function Home() {
 						<Image src={ansys} alt="Ansys" className="h-12 w-auto" />
 						<Image src={altair} alt="Altair" className="h-12 w-auto" />
 						<Image
-							src={codingninjas}
-							alt="Coding Ninjas"
-							className="h-16 w-auto"
+							src="/images/sponsors/kazam.svg"
+							alt="Kazam"
+							width={170}
+							height={60}
+							className="h-14 w-auto rounded-md bg-white px-3 py-2"
 						/>
-						<Image src={vactech} alt="Vactech" className="h-16 w-auto" />
-						<Image src={creo} alt="Creo" className="h-16 w-auto" />
 					</div>
 				</section>
 			</div>

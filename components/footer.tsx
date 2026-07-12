@@ -41,6 +41,7 @@ export default function Footer() {
 					>
 						Priyanshu Sinha
 					</a>
+					{" "}â€¢ Maintained by Prakhar Awasthi
 				</p>
 			</Container>
 		</footer>

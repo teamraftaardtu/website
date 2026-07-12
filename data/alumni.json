@@ -1,5 +1,40 @@
 [
 	{
+		"name": "Shubhangam Sharan",
+		"class": "26",
+		"por": "Captain",
+		"linkedin": "https://www.linkedin.com/in/shubhangam-sharan-b25196249/",
+		"image": "Shubhangam1.jpg"
+	},
+	{
+		"name": "Devyank Ojha",
+		"class": "26",
+		"por": "Vice-Captain",
+		"linkedin": "https://www.linkedin.com/in/devyank-ojha-4a156b252/",
+		"image": "Devyank Ojha 4th.jpg"
+	},
+	{
+		"name": "Mahatva Anand",
+		"class": "26",
+		"por": "Design Head",
+		"instagram": "https://www.instagram.com/mahatva._.anand/",
+		"email": "mahatva.anand123456@gmail.com",
+		"image": "mahatva.jpg"
+	},
+	{
+		"name": "Piyush",
+		"class": "26",
+		"por": "Engineering Head",
+		"image": "Piyush 4th.jpg"
+	},
+	{
+		"name": "Dhruv Dixit",
+		"class": "26",
+		"por": "Operation Head",
+		"linkedin": "https://www.linkedin.com/in/dhruvdixit05a2/",
+		"image": "Dhruv Dixit 4th.jpg"
+	},
+	{
 		"name": "Siddharth Garg",
 		"class": "24",
 		"por": "Captain",

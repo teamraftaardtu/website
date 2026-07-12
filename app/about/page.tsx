@@ -7,7 +7,8 @@ import pegasus from "@/public/images/vehicles/Pegasus.png"
 import eurus from "@/public/images/vehicles/Eurus.png"
 import falcon from "@/public/images/vehicles/Falcon.jpg"
 import vayu from "@/public/images/vehicles/VAYU.png"
-import team from "@/public/images/team-min.jpeg"
+import pinaka from "@/public/images/vehicles/Pinaka.png"
+import mission from "@/public/images/home/mission.png"
 
 export default function About() {
 	return (
@@ -17,38 +18,39 @@ export default function About() {
 			</h1>
 			<div className="flex flex-col items-center gap-6 md:flex-row">
 				<Image
-					src={team}
+					src={mission}
 					alt="Whole Team Pic"
 					className="h-auto w-full rounded-lg md:w-[500px]"
 				/>
 				<section className="mx-auto text-left text-lg text-slate-200">
 					<p className="my-2 leading-snug">
-						We are the Human Powered Vehicle Team consisting of undergraduate
-						students who aim to give the world an alternative solution to the
-						present-day energy crisis.
+						Team Raftaar is DTU&apos;s Human Powered Vehicle team, a group of
+						students obsessed with answering one very important question: how
+						fast can a bicycle go if engineers refuse to leave it alone?
 					</p>
 					<p className="my-2 leading-snug">
-						We study, design, develop, and manufacture the fully-faired
-						recumbent bikes and trikes which can reach up to the highest speeds
-						of 60 kmph solely by human power!!! The team rigorously researches
-						about the human-powered vehicles and uses the best possible design,
-						the best possible techniques, and the best possible materials for
-						manufacturing.
+						We design, build, and race fully faired recumbent bicycles and
+						tricycles that can reach speeds of up to 60 km/h using nothing but
+						human power. Every vehicle is the result of months of design,
+						analysis, manufacturing, testing, redesigning, and occasionally
+						discovering new ways not to build a bike.
 					</p>
 					<p className="my-2 leading-snug">
-						From building fairing completely from carbon fiber to incorporating
-						the internationally acclaimed landing gear system in the vehicle,
-						Team Raftaar is redefining the way human-powered vehicles are
-						perceived in India. Our unique manufacturing style, innovative
-						design, detailed analysis, and advanced use of composites have been
-						appreciated and awarded multiple times both in National and
-						international competitions.
+						From aerodynamic fairings and lightweight structures to innovative
+						engineering solutions, we are constantly pushing the limits of speed,
+						efficiency, and performance. What starts as sketches, simulations,
+						and ambitious ideas eventually becomes a machine capable of competing
+						with some of the best human powered vehicles in the country.
 					</p>
 					<p className="my-2 leading-snug">
-						With each passing year, we as a team are getting closer and closer
-						to our ultimate ambition of bringing HPVs closer to the everyday
-						commuters as a sustainable alternative to other conventional modes
-						of transport.
+						Over the years, our work has earned recognition at national and
+						international competitions, but our biggest achievement is building
+						vehicles that make people stop and ask, &quot;Wait, that&apos;s a
+						bicycle?&quot;
+					</p>
+					<p className="my-2 leading-snug">
+						At Team Raftaar, we like to think great engineering is just about
+						how well you weld stuff. The judges usually disagree.
 					</p>
 				</section>
 			</div>
@@ -65,7 +67,8 @@ export default function About() {
 					{ src: pegasus, name: "PEGASUS" },
 					{ src: eurus, name: "EURUS" },
 					{ src: falcon, name: "FALCON" },
-					{ src: vayu, name: "VAYU" }, 
+					{ src: vayu, name: "VAYU" },
+					{ src: pinaka, name: "PINAKA" },
 				].map((vehicle, index) => (
 					<div
 						key={index}
